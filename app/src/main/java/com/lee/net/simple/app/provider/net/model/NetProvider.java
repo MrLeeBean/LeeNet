@@ -1,22 +1,20 @@
 package com.lee.net.simple.app.provider.net.model;
 
 
-
-import com.shuai.csnet.example.app.api.interfaceapi.TestServiceApi;
-import com.shuai.csnet.example.app.provider.net.INetProvider;
-import com.shuai.csnet.example.app.provider.net.core.HttpInterface;
-import com.shuai.csnet.example.app.provider.net.core.observer.MyObserver;
-import com.shuai.csnet.example.app.ui.bean.CheckRomBean;
-import com.shuai.csnet.net.ApiFactory;
+import com.lee.net.simple.app.api.interfaceapi.TestServiceApi;
+import com.lee.net.simple.app.provider.net.INetProvider;
+import com.lee.net.simple.app.provider.net.core.HttpInterface;
+import com.lee.net.simple.app.provider.net.core.observer.MyObserver;
+import com.lee.net.simple.app.ui.bean.CheckRomBean;
+import com.lee.netlib.net.ApiFactory;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 
-
 /**
  * MVP：统一Model层，用于存放所有网络请求，INetProvider的实现类
  *
- * @author changshuai
+ * @author liyong
  */
 
 public class NetProvider implements INetProvider {

@@ -2,16 +2,16 @@ package com.lee.net.simple.app.provider.net.core.observer;
 
 import android.widget.Toast;
 
-import com.shuai.csnet.example.app.MyApplication;
-import com.shuai.csnet.example.app.provider.net.core.HttpInterface;
-import com.shuai.csnet.example.app.provider.net.core.bean.BaseResponse;
-import com.shuai.csnet.utils.Util;
+import com.lee.net.simple.app.MyApplication;
+import com.lee.net.simple.app.provider.net.core.HttpInterface;
+import com.lee.net.simple.app.provider.net.core.bean.BaseResponse;
+import com.lee.netlib.utils.Util;
 
 
 /**
  * 统一BaseObserver处理
  *
- * @author changshuai
+ * @author liyong
  */
 
 public class MyObserver<T> extends BaseObserver<T> {

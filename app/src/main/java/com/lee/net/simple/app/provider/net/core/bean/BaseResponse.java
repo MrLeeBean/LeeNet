@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 /**
- * @author changshuai
+ * @author liyong
  */
 public class BaseResponse<T> extends MyResponse implements Serializable {
 

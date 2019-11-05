@@ -2,15 +2,17 @@ package com.lee.net.simple.app.provider.net.core.observer;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.shuai.csnet.config.NetConfig;
-import com.shuai.csnet.example.app.R;
-import com.shuai.csnet.example.app.constants.MyConstants;
-import com.shuai.csnet.example.app.provider.net.core.bean.BaseResponse;
-import com.shuai.csnet.example.app.provider.net.core.error.MyErrorInfoConstant;
-import com.shuai.csnet.net.exception.RequestException;
+
+import com.lee.net.simple.app.R;
+import com.lee.net.simple.app.constants.MyConstants;
+import com.lee.net.simple.app.provider.net.core.bean.BaseResponse;
+import com.lee.net.simple.app.provider.net.core.error.MyErrorInfoConstant;
+import com.lee.netlib.config.NetConfig;
+import com.lee.netlib.net.exception.RequestException;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -21,7 +23,6 @@ import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 
 import io.reactivex.Observer;
-import io.reactivex.annotations.NonNull;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import okhttp3.ResponseBody;

@@ -6,10 +6,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.shuai.csnet.example.app.R;
-import com.shuai.csnet.example.app.provider.DataProviderManager;
-import com.shuai.csnet.example.app.provider.net.core.HttpInterface;
-import com.shuai.csnet.example.app.ui.bean.CheckRomBean;
+import com.lee.net.simple.app.R;
+import com.lee.net.simple.app.provider.DataProviderManager;
+import com.lee.net.simple.app.provider.net.core.HttpInterface;
+import com.lee.net.simple.app.ui.bean.CheckRomBean;
 
 
 public class MainActivity extends AppCompatActivity {

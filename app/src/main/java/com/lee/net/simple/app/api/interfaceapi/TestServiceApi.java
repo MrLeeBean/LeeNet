@@ -1,11 +1,9 @@
 package com.lee.net.simple.app.api.interfaceapi;
 
-
-
-import com.shuai.csnet.example.app.api.ServerField;
-import com.shuai.csnet.example.app.constants.MyConstants;
-import com.shuai.csnet.example.app.provider.net.core.bean.BaseResponse;
-import com.shuai.csnet.example.app.ui.bean.CheckRomBean;
+import com.lee.net.simple.app.api.ServerField;
+import com.lee.net.simple.app.constants.MyConstants;
+import com.lee.net.simple.app.provider.net.core.bean.BaseResponse;
+import com.lee.net.simple.app.ui.bean.CheckRomBean;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;

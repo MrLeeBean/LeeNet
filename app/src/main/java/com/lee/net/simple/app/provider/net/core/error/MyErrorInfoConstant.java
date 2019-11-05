@@ -1,8 +1,8 @@
 package com.lee.net.simple.app.provider.net.core.error;
 
 
-import com.shuai.csnet.example.app.MyApplication;
-import com.shuai.csnet.example.app.R;
+import com.lee.net.simple.app.MyApplication;
+import com.lee.net.simple.app.R;
 
 /**
  * 错误常量字段

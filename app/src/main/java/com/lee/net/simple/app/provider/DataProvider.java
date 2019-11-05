@@ -1,13 +1,13 @@
 package com.lee.net.simple.app.provider;
 
 
-import com.shuai.csnet.example.app.provider.common.ICommonProvider;
-import com.shuai.csnet.example.app.provider.net.INetProvider;
+import com.lee.net.simple.app.provider.common.ICommonProvider;
+import com.lee.net.simple.app.provider.net.INetProvider;
 
 /**
  * 基础信息分类提供者实现类
  *
- * @author changshuai
+ * @author liyong
  */
 
 public class DataProvider implements IDataProvider {

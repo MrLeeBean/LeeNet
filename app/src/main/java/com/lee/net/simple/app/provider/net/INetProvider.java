@@ -1,13 +1,13 @@
 package com.lee.net.simple.app.provider.net;
 
 
-import com.shuai.csnet.example.app.provider.net.core.HttpInterface;
-import com.shuai.csnet.example.app.ui.bean.CheckRomBean;
+import com.lee.net.simple.app.provider.net.core.HttpInterface;
+import com.lee.net.simple.app.ui.bean.CheckRomBean;
 
 /**
  * 网络请求的ProviderInterface
  *
- * @author changshuai
+ * @author liyong
  */
 
 public interface INetProvider {

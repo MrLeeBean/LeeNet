@@ -1,13 +1,13 @@
 package com.lee.net.simple.app.provider;
 
 
-import com.shuai.csnet.example.app.provider.common.model.CommonProvider;
-import com.shuai.csnet.example.app.provider.net.model.NetProvider;
+import com.lee.net.simple.app.provider.common.model.CommonProvider;
+import com.lee.net.simple.app.provider.net.model.NetProvider;
 
 /**
  * DataProvider管理类
  *
- * @author changshuai
+ * @author liyong
  */
 
 public class DataProviderManager {

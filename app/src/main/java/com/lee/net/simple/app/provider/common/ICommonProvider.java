@@ -3,7 +3,7 @@ package com.lee.net.simple.app.provider.common;
 /**
  * 公共信息的ProviderInterface
  *
- * @author changshuai
+ * @author liyong
  */
 
 public interface ICommonProvider {

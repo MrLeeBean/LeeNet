@@ -1,12 +1,13 @@
 package com.lee.net.simple.app.provider.net.core;
 
+
 import io.reactivex.disposables.CompositeDisposable;
 
 /**
  * MVP-回调接口
  * Model->Presenter回调接口
  *
- * @author changshuai
+ * @author liyong
  */
 public class HttpInterface {
 

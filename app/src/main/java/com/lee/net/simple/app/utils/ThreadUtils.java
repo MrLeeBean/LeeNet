@@ -1,11 +1,11 @@
 package com.lee.net.simple.app.utils;
 
 
-import com.shuai.csnet.example.app.MyApplication;
+import com.lee.net.simple.app.MyApplication;
 
 /**
  * 和线程相关的工具类
- * @author changshuai
+ * @author liyong
  */
 
 public class ThreadUtils {

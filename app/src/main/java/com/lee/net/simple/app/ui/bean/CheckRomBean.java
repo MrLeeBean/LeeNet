@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 /**
- @author changshuai
+ @author liyong
  */
 
 public class CheckRomBean implements Serializable {

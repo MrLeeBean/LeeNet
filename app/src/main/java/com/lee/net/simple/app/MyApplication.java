@@ -3,18 +3,19 @@ package com.lee.net.simple.app;
 import android.app.Application;
 import android.os.Handler;
 
+
 import com.google.gson.Gson;
-import com.shuai.csnet.config.NetConfig;
-import com.shuai.csnet.config.provider.NetBaseConfigProvider;
-import com.shuai.csnet.config.provider.NetRequestConfigProvider;
-import com.shuai.csnet.example.app.constants.MyConstants;
+import com.lee.net.simple.app.constants.MyConstants;
+import com.lee.netlib.config.NetConfig;
+import com.lee.netlib.config.provider.NetBaseConfigProvider;
+import com.lee.netlib.config.provider.NetRequestConfigProvider;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.shuai.csnet.example.app.api.ServerAddress.ServerAddress1;
-import static com.shuai.csnet.example.app.api.ServerAddress.ServerAddress2;
-import static com.shuai.csnet.example.app.api.ServerAddress.ServerAddressDefault;
+import static com.lee.net.simple.app.api.ServerAddress.ServerAddress1;
+import static com.lee.net.simple.app.api.ServerAddress.ServerAddress2;
+import static com.lee.net.simple.app.api.ServerAddress.ServerAddressDefault;
 
 
 public class MyApplication extends Application {

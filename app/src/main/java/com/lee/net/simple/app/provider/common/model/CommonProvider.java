@@ -1,12 +1,12 @@
 package com.lee.net.simple.app.provider.common.model;
 
 
-import com.shuai.csnet.example.app.provider.common.ICommonProvider;
+import com.lee.net.simple.app.provider.common.ICommonProvider;
 
 /**
  * 公共信息的ICommonProvider实现类
  *
- * @author changshuai
+ * @author liyong
  */
 
 public class CommonProvider implements ICommonProvider {

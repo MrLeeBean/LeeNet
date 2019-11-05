@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">netlib</string>
+    <string name="app_name">csnet</string>
+
+
+    <!-- 配置说明 -->
+
+    <string name="config_header_cache_key">Cache-Control</string>
+    <string name="config_header_cache_value">max-age=%1$d</string>
+
+
 </resources>
