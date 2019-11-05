@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
@@ -19,6 +19,15 @@ android {
     useLibrary 'org.apache.http.legacy'//解决23没有Http包中的一些类库。
 
 }
+publish {
+    userOrg = 'mrleebean'         // bintray.com 用户名
+    groupId = 'com.mrleebean'  // jcenter上的路径
+    artifactId = 'netlib'          // 项目名称
+    publishVersion = '0.0.1'  // 版本号
+    desc = 'An Android NetLib'   // 项目 描述(不重要)。"不重要"的意思是你可以乱填,但是不能删除 desc 哦。
+    website = 'https://github.com/MrLeeBean/LeeNet' //网站。 就填入Github 项目地址就可以了。也不能删除 website 哦。
+}
+
 //支持库强制全部使用统一的版本。TODO 如果有问题，需要删除此配置。
 //configurations.all {
 //    resolutionStrategy.eachDependency { DependencyResolveDetails details ->

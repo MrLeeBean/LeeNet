@@ -53,6 +53,7 @@ dependencies {
 
 
     implementation project(':netlib')
-    compile project(path: ':netlib')
+//    compile project(path: ':netlib')
+        implementation 'com.github.MrLeeBean:LeeNet:0.0.1'
 //    implementation 'com.github.changshuai7:CSNet:0.0.1'
 }
